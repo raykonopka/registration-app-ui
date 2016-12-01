@@ -709,7 +709,7 @@
   </wsdl:binding>
   <wsdl:service name="RegistrationDataService">
     <wsdl:port name="BasicHttpBinding_IRegistrationDataService" binding="tns:BasicHttpBinding_IRegistrationDataService">
-      <soap:address location="http://localhost/RegistrationDataService/RegistrationDataService.svc" />
+      <soap:address location="http://34.193.163.157/registration-app-data-access/RegistrationDataService.svc" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

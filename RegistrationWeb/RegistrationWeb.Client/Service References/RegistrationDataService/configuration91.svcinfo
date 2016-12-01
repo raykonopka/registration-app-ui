@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="T98kQTlsgYhQegw/YC57GsG7DsA=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="vT8DcYG7l+fY+fBxur5PW/dU4O4=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IRegistrationDataService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IRegistrationDataService" contract="RegistrationDataService.IRegistrationDataService" bindingType="basicHttpBinding" address="http://localhost/RegistrationDataService/RegistrationDataService.svc" bindingConfiguration="BasicHttpBinding_IRegistrationDataService">
+    <endpoint name="BasicHttpBinding_IRegistrationDataService" contract="RegistrationDataService.IRegistrationDataService" bindingType="basicHttpBinding" address="http://34.193.163.157/registration-app-data-access/RegistrationDataService.svc" bindingConfiguration="BasicHttpBinding_IRegistrationDataService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost/RegistrationDataService/RegistrationDataService.svc</serializedValue>
+          <serializedValue>http://34.193.163.157/registration-app-data-access/RegistrationDataService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

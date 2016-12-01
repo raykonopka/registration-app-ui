@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f4952eb0-e558-4c3d-a10f-6915406c9370" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e98dd378-ad58-47d9-9c23-01890135cc46" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,10 +19,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost/RegistrationDataService/RegistrationDataService.svc?singleWsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://34.193.163.157/registration-app-data-access/RegistrationDataService.svc?singleWsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="RegistrationDataService.wsdl" MetadataType="Wsdl" ID="7689e021-b883-4574-9e69-c24d0cc5f520" SourceId="1" SourceUrl="http://localhost/RegistrationDataService/RegistrationDataService.svc?singleWsdl" />
+    <MetadataFile FileName="RegistrationDataService.wsdl" MetadataType="Wsdl" ID="b120c7c0-5fcf-429a-a4d4-49eb43935b23" SourceId="1" SourceUrl="http://34.193.163.157/registration-app-data-access/RegistrationDataService.svc?singleWsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
