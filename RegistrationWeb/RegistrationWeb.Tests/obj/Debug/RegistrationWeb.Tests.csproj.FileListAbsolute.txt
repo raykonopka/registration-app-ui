@@ -17,5 +17,6 @@ C:\RevatureDev\GitHub\registration-app-ui\RegistrationWeb\RegistrationWeb.Tests\
 C:\RevatureDev\GitHub\registration-app-ui\RegistrationWeb\RegistrationWeb.Tests\bin\Debug\xunit.core.xml
 C:\RevatureDev\GitHub\registration-app-ui\RegistrationWeb\RegistrationWeb.Tests\bin\Debug\xunit.execution.desktop.pdb
 C:\RevatureDev\GitHub\registration-app-ui\RegistrationWeb\RegistrationWeb.Tests\bin\Debug\xunit.execution.desktop.xml
+C:\RevatureDev\GitHub\registration-app-ui\RegistrationWeb\RegistrationWeb.Tests\obj\Debug\RegistrationWeb.Tests.csprojResolveAssemblyReference.cache
 C:\RevatureDev\GitHub\registration-app-ui\RegistrationWeb\RegistrationWeb.Tests\obj\Debug\RegistrationWeb.Tests.dll
 C:\RevatureDev\GitHub\registration-app-ui\RegistrationWeb\RegistrationWeb.Tests\obj\Debug\RegistrationWeb.Tests.pdb

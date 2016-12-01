@@ -17,7 +17,7 @@ namespace RegistrationWeb.Tests
         {
             HttpClient httpClient = new HttpClient();
 
-            var actual = httpClient.GetAsync("http://34.193.163.157/registration-app-ui/").Result;
+            var actual = httpClient.GetAsync("http://34.193.163.157/registration-app-ui/g").Result;
 
             if (actual.IsSuccessStatusCode)
             {
