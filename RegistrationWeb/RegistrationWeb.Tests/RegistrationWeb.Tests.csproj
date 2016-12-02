@@ -62,13 +62,51 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\RegistrationDataService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="WebTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\RegistrationWeb.Client.RegistrationDataService.BookmarkedSessionDAO.datasource" />
+    <None Include="Properties\DataSources\RegistrationWeb.Client.RegistrationDataService.CourseDAO.datasource" />
+    <None Include="Properties\DataSources\RegistrationWeb.Client.RegistrationDataService.CourseSessionDAO.datasource" />
+    <None Include="Properties\DataSources\RegistrationWeb.Client.RegistrationDataService.RegistrarUserDAO.datasource" />
+    <None Include="Properties\DataSources\RegistrationWeb.Client.RegistrationDataService.ScheduleDAO.datasource" />
+    <None Include="Properties\DataSources\RegistrationWeb.Client.RegistrationDataService.StudentDAO.datasource" />
+    <None Include="Properties\DataSources\RegistrationWeb.Client.RegistrationDataService.StudentUserDAO.datasource" />
+    <None Include="Service References\RegistrationDataService\RegistrationDataService.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RegistrationWeb.Client\RegistrationWeb.Client.csproj">
+      <Project>{836348DF-A323-4595-A815-6B5D44D0C8E9}</Project>
+      <Name>RegistrationWeb.Client</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\RegistrationDataService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RegistrationDataService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RegistrationDataService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RegistrationDataService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RegistrationWeb.Client;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -13,22 +14,13 @@ namespace RegistrationWeb.Tests
     {
 
         [Fact]
-        public void Test_LoadIndexPage()
+        public void Test_GetEnrolledStudents()
         {
-            HttpClient httpClient = new HttpClient();
+            DataService data = new DataService();
 
-            var actual = httpClient.GetAsync("http://34.193.163.157/registration-app-ui/").Result;
+            var actual = data.GetStudentUsers();
 
-            if (actual.IsSuccessStatusCode)
-            {
-                Debug.WriteLine("Index Page Sucessfully Loaded.");
-            }
-            else
-            {
-                Debug.WriteLine("Index Page Failed To Load.");
-            }
-
-            Assert.True(actual.IsSuccessStatusCode);
+            Assert.NotNull(actual);
         }
 
     }
